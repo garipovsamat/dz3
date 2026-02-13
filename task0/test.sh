@@ -1,0 +1,1 @@
+while true; do echo "$(date +%s) $(curl -o /dev/null -s -w '%{http_code}\t%{time_total}' https://google.com)"; sleep 1; done
