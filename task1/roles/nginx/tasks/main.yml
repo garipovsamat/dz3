@@ -12,10 +12,10 @@
     state: latest
     update_cache: yes
 
-# - name: install nginx
-#   ansible.builtin.apt: 
-#     name: nginx
-#     state: latest
+- name: install nginx
+  ansible.builtin.apt: 
+    name: nginx
+    state: latest
 
 - name: copypast nginx conf
   copy:

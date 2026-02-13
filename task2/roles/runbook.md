@@ -6,7 +6,7 @@ echo "server { listen 80; }" | sudo tee /tmp/nginx-test/nginx.conf
 ```
 2. 
 ```bash
- ansible-playbook -i inventory.ini deploy.yaml 
+ ansible-playbook -i host.ini deploy.yaml
 ```
 3. 
 ```bash
